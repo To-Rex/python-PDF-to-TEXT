@@ -1,7 +1,7 @@
-from flask import Flask, abort, request
+from io import BytesIO
 import pdfplumber
 import requests
-from io import BytesIO
+from flask import Flask, abort
 
 app = Flask(__name__)
 
