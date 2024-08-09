@@ -54,4 +54,4 @@ def fetch_pdf_page(url, page_number):
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
