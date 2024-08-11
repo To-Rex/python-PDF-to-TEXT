@@ -77,7 +77,7 @@ def fetch_all_pdf_page():
         abort(500, description=str(e))
 
 
-@app.route('/pdf/<path:url>/all')
+@app.route('/<path:url>/all')
 def fetch_all_pdf_page_url(url):
     pdf_url = url
     try:
